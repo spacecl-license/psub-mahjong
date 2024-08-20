@@ -1,0 +1,17 @@
+{
+  "需要" : "NEED",
+  "需要提升等级" : "NEED TO LEVEL UP",
+  "选择代币" : "SELECT THE TOKEN",
+  "充值地址" : "DEPOSIT WALLET ADDRESS",
+  "提交" : "PURCHASE",
+  "完成" : "INVOICE CREATED!",
+  "是" : "OK",
+  "1. 申请购买后，您应使用 '存款钱包地址 '中选择的代币付款。2. 付款确认后，NFT 将发送到您的 BNB 钱包地址。3. 这是一个在链上记录的转账操作，因此可能需要一些时间。4. 一旦确认付款，无论是否收到 NFT，您都可以创建游戏。" : 
+  "1. You should make a payment in the tokens you selected as the 'Deposit Wallet Address' after request for the purchase.\n\n2. Once the payment is confirmed, the NFTs will be sent to your BNB wallet address.\n\n3. This is a transfer operation that is recorded on-chain, so it may take some time.\n\n4. Once your payment is confirmed, you can create your game regardless of whether you have received NFTs or not.",
+  "您当前正在进行购买操作！请确保当前支付钱包地址与注册时提供绑定的PsuB地址或BNB地址属于同一钱包地址，否则您的支付无法到账！" :
+  "Deposits must be made from \nthe PsuB or BnB address wallet \nyou provided during registration.\n\nOtherwise, payment processing might \nnot work properly.",
+  "无": "NONE!",
+  "钱包地址或交易密码未登记。请检查您的登记状态并重试。" : "Wallet address or \ntransaction password has \nnot registered.\n\nplease check your registration status and try again.",
+  "今天可以购买的数量是" : "The number of purchases available today is",
+  "可用数量为" : "The available quantity is"
+}

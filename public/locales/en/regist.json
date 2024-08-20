@@ -1,0 +1,16 @@
+{
+  "会员注册已完成！" : "YOU'RE JOINED UP!",
+  "想要参与游戏，请移动到购买" : "To join the game",
+ " MY Page-> NFT" : " go to My Page ->",
+  "购买NFT。" : "Purchase NFT to buy NFT.",
+  "是": "OK",
+  "密码" : "PASSWORD",
+  "确认密码" : "CONFIRM PASSWORD",
+  "BNB地址" : "BNB(BEP20) ADDRESS",
+  "USDT(TRC20)地址" : "USDT(TRC20) ADDRESS",
+  "交易密码" : "TRANSACTION PASSWORD",
+  "PSUB地址" : "PSUB ADDRESS",
+  "推荐人" : "REFERRER",
+  "验证" : "VERIFY",  
+  "完成" : "JOIN"
+}

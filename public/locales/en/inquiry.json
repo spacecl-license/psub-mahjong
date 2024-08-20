@@ -1,0 +1,15 @@
+{
+  "咨询内容" : "INQUIRY",
+  "标题" : "TITLE",
+  "详细信息" : "DETAILS",
+  "添加图片" : "ATTACH PICTURES",
+  "请输入标题": "Please write title",
+  "请详细输入咨询的明细。回复内容将发送到注册时输入的电子邮件" : "Please write details of your inquiry.\nReply will be sent to the email address you registered with.",
+  "经常问的问题在公告事项上有说明。" : "Frequently asked questions are provided\nin the notice.",
+  "询问" : "TO INQUIRE",
+  "我的咨询内容" : "MY INQUIRY DETAILS",
+  "通知" : "NOTICE",
+  "详细信息只对回答完毕的咨询提供。" : "Detailed information is only available for\ninquiries that have been answered.",
+  "受理": "Reception",
+  "答复完毕": "Answered"
+}

@@ -1,0 +1,25 @@
+{
+  "奖励" : "REWARDS",
+  "销售" : "SWAP",
+  "奖励_" : "REWARD",
+  "数量" : "QUANTITY",
+  "销售代币的数量" : "QUANTITY OF SWAP REQUESTS",
+  "代币" : "TOKENS",
+  "幸运盲盒" : "RANDOM BOX",
+  "离线自动参与" : "Automatically participate offline",
+  "游戏开始!": "GAME START!",
+  "您需要一个幸运盲盒来参与游戏。请按住幸运盲盒再试一次。" : 
+  "You need a random box\nto participate in the game.\n\nPlease hold the random box \nand try again.",
+  "是" : "OK",
+  "无" : "NONE!",
+  "幸运盲盒打开" : "RANDOMBOX OPEN",
+  "数额" : "AMOUNT",
+  "最多可打开": "Up to",
+  "个" : "EA open able",
+  "取消": "CANCEL",
+  "打开": "OPEN",
+  "奖金": "BONUS",
+  "只能选择您持有的项目。" : "Only the items\nyou hold can be selected.",
+  "最多可交换" : "Up to",
+  "个_" : "EA swap able"
+}

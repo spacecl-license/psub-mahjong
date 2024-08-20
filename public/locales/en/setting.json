@@ -1,0 +1,13 @@
+{
+  "电子邮件": "E-MAIL",
+  "钱包地址": "WALLET ADDRESS",
+  "更改": "CHANGE",
+  "BNB地址" : "BNB ADDRESS",
+  "交易密码" : "TRANSACTION PASSWORD",
+  "PSUB地址" : "PSUB ADDRESS",
+  "确认密码": "CONFIRM PASSWORD",
+  "输入要更改的电子邮件地址，然后点击更改按钮，电子邮件地址将更改。": "Enter the email address you want to\nchange and touch the Change button, the \nemail address will change.",
+  "设置您的钱包地址。" : "Set your wallet address.",
+  "设置您的交易密码。": "Set your transaction password.",
+  "控制论主题" : "CYBERNETIC THEME"
+}

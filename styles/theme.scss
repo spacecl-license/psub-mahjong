@@ -1,0 +1,1081 @@
+// default theme
+$main-color: #C8181A;
+$bg-color: #FAFAFA;
+$white: #FFF;
+$psub-color: #E83F24;
+$sub-color: #A01415;
+$sub-color2: #E48C8D;
+$sub-color3: #FF412D;
+$sub-color4: #D4932C;
+$gray: #AAA;
+$gray-2 : #555555;
+$gray-3 : #5C5C5C;
+$gray-4: #ccc;
+$gray-5: #EFEFEF;
+
+// cybernetic theme
+$dark-sub: #12B8FF;
+$dark-sub2: #FF007A;
+$gray-dark-gray-3 : #777;
+$dark-sub3: #3B3F88;
+$dark-sub4: #7089C1;
+$sub-bg : #29282D;
+$dark-text-sub: #CDCDCD;
+$dark-modal-border : rgba(255, 255, 255, 0.20);
+$dark-modal-bg : rgba(255, 255, 255, 0.12);
+$bonus-bg : #434B43;
+
+// game theme
+$game-gold : #F9DB89;
+$game-green: #174208;
+
+
+
+
+// 라이트 모드
+html.light {
+  background-color: #{$bg-color};
+  color: black;
+  --font-color: black;
+  --font-color2: #{$white};
+  --main-color: #{$main-color};
+  --bg-color: #{$bg-color};
+  --psub-color: #{$psub-color};
+  --sub-color: #{$sub-color};
+  --sub-color2: #{$sub-color2};
+  --sub-color3: #{$sub-color3};
+  --sub-color4: #{$sub-color4};
+  --gray: #{$gray};
+
+  // 라이트 그레이 다크 옆은 그레이
+  --dark-text-sub : #{$gray};
+  // 라이트 블랙 다크 옆은 그레이
+  --dark-text-sub2 : black;
+
+  // 인풋 색상
+  --input-dark-sub: #{$main-color};
+  --input-dark-sub2: #{$main-color};
+
+  // 헤더 색상
+  --header-dark-color: black;
+  --header-gray-color: #{$gray-4};
+  --header-global-color: #{$gray};
+
+  // 푸터 색상
+  --footer-color: #{$main-color};
+  --footer-gray-color: #{$gray};
+
+  // sub3 색상
+  --header-information: #{$sub-color};
+
+  // 초대 아이콘 색상
+  --invite-icon: #{$sub-color2};
+
+  // 게임 쪽 배경 색상
+  --game-background: #{$white};
+  --timer-background: #{$white};
+  --timer-color: #{$main-color};
+  --event-color : #{$sub-color};
+  --event-color2 : #{$sub-color3};
+
+  // 게임 캘린더
+  --calendar-tap-color : #{$gray-dark-gray-3};
+  --calendar-color: #{$white};
+  --calendar-color2: #{$main-color};
+  --badge-color : #{$gray};
+  --border-bottom-color : #{$sub-color2};
+
+  // 세팅 색상
+  --content-color : #{$sub-color};
+
+  // 모달 색상
+  --modal-header-color : #{$gray};
+  --modal-header-color2 : #{$sub-color};
+  --modal-content-color : #{$white};
+
+  // nft 아이템 색상
+  --nft-header : #{$main-color};
+  --nft-footer : #{$white};
+  --nft-svg : #{$psub-color};
+  --nft-font-color : #{$psub-color};
+  --nft-font-color2 : #{$main-color};
+  --nft-prohibit : #{$main-color};
+  --randomBox-color : #{$sub-color};
+
+  // 영수증 색상
+  --receipt-date-color : #{$gray-2};
+  --receipt-level-color : #{$gray-2};
+
+  // 리워드 색상
+  --reward-bg : #{#EFEFEF};
+  --reward-bg2 : #{$white};
+  --none : black;
+  --random-box-border : #{$gray-4};
+  --random-box-toggle-color : #{$sub-color2};
+  --random-box-toggle-color2 : #{$main-color};
+  --random-box-text-color : #{$main-color};
+  --random-box-text-color2 : black;
+  --minus-button-color : #{$gray-4};
+  --plus-button-color : #{$gray};
+
+  // 친구 색상
+  --friend-color : #{$sub-color};
+  --friend-border: #{$main-color};
+  --friend-font-color: #{$main-color};
+  --friend-modal-header-color: #{$gray-dark-gray-3};
+  --friend-modal-border-color: #{$gray};
+  
+  // 로딩 색상
+  --loading-color: #{$main-color};
+  --loading-color2: #{$sub-color};
+
+  // 문의 색상
+  --inquiry-file-up-button-color : #{$main-color};
+  --inquiry-file-up-background : #{$gray};
+  --inquiry-file-up-color: #{$white};
+  --inquiry-badge-color : #{$main-color};
+  --inquiry-image-background : #FAFAFA;
+
+  // 보너스 색상
+  --bonus-header-bg : #{$gray-dark-gray-3};
+  --bonus-border : #{$gray-dark-gray-3};
+  --bonus-color : #{$gray};
+
+
+
+  // 인풋 보더 색상
+  div {
+    &.primary {
+      border: 1px solid var(--main-color);
+    }
+    &.focus {
+      &:focus-within{
+        border-color: var(--main-color);
+      }
+
+    }
+    &.event {
+      border: 1px solid var(--sub-color);
+    }
+    &.event2 {
+      border: 1px solid var(--sub-color3);
+    }
+    &.calendar {
+      background-color: var(--main-color);
+    }
+    &.small-info {
+      background: var(--main-color);
+    }
+    &.small-info-border {
+      border: 1px solid var(--main-color);
+      border-radius: 0.6rem;
+    }
+    &.section {
+      background-color: var(--gray);
+    }
+    &.bonus-info-border {
+      border: 1px solid var(--sub-color);
+      border-radius: 0.6rem;
+    }
+    &.bonus-info {
+      background: var(--sub-color);
+    }
+  }
+
+  // 버튼 색상
+  button {
+    &.primary {
+      background-color: var(--main-color);
+      color: #{$white};
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #{$white};
+        }
+      }
+    }
+
+    &.reversal {
+      background-color: #{$white};
+      color: var(--main-color);
+      border: 1px solid var(--main-color);
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: var(--main-color);
+        }
+      }
+    }
+
+    &.link {
+      background-color: var(--main-color);
+      color: #{$white};
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: uppercase;
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #{$white};
+        }
+      }
+    }
+
+  }
+
+}
+
+// 다크 모드
+html.dark {
+  background-color: #16181A;
+  --font-color: #{$white};
+  --font-color2: black;
+  --bg-color: #{#16181A};
+  --gray: #{$gray};
+  --dark-sub : #{$dark-sub};
+  --dark-sub2 : #{$dark-sub2};
+  --dark-sub3 : #{$dark-sub3};
+  --dark-sub4 : #{$dark-sub4};
+  --dark-gray-3 : #{$gray-dark-gray-3};
+
+  // 라이트 그레이 다크 옅은 그레이
+  --dark-text-sub : #{$dark-text-sub};
+  // 라이트 블랙 다크 옅은 그레이
+  --dark-text-sub2 : #{$dark-text-sub};
+
+
+  // 인풋 색상
+  --input-dark-sub: #{$dark-sub};
+  --input-dark-sub2: #{$dark-sub2};
+
+  // 헤더 색상
+  --header-dark-color: #{$dark-sub2};
+  --header-gray-color: #{$gray-dark-gray-3};
+  --header-global-color: #{$dark-sub2};
+
+  // 푸터 색상
+  --footer-color: #{$dark-sub};
+  --footer-gray-color: #{$gray-dark-gray-3};
+
+  // sub3 색상 
+  --header-information: #{$dark-sub3};
+
+  // 초대 아이콘 색상
+  --invite-icon: #{$dark-sub2};
+
+  // 게임 쪽 배경 색상
+  --game-background: #{$sub-bg};
+  --timer-background: #{$gray-3};
+  --timer-color: #{$white};
+  --event-color : #{$dark-sub};
+  --event-color2 : #{$dark-sub};
+
+  // 게임 캘린더
+  --calendar-tap-color : #{$dark-text-sub};
+  --calendar-color: #{$dark-sub2};
+  --calendar-color2: #{$dark-sub2};
+  --badge-color : #{$white};
+  --border-bottom-color : #{$dark-sub4};
+
+  // 세팅 색상
+  --content-color : #{$dark-text-sub};
+
+  // 모달 색상
+  --modal-header-color : #{$sub-bg};
+  --modal-header-color2 : #{$dark-sub3};
+  --modal-content-color : #{$dark-modal-bg};
+  --modal-border-color : #{$dark-modal-border};
+
+  // nft 아이템 색상
+  --nft-header : #{#16181A};
+  --nft-footer : #{#16181A};
+  --nft-svg : #{$dark-sub2};
+  --nft-font-color : #{$dark-sub};
+  --nft-font-color2 : #{$white};
+  --nft-prohibit : #{$gray};
+  --randomBox-color : #FCFCFC;
+  
+  // 영수증 색상
+  --receipt-date-color : #{$dark-text-sub};
+  --receipt-level-color : #{$dark-sub};
+
+  // 리워드 색상
+  --reward-bg : #{#0F0F0F};
+  --reward-bg2 : #{#16181A};
+  --none : #{$dark-text-sub};
+  --random-box-border : #{$gray-3};
+  --random-box-toggle-color : #{$dark-sub3};
+  --random-box-toggle-color2 : #{$dark-sub2};
+  --random-box-text-color : #{$dark-sub2};
+  --random-box-text-color2 : #{$gray-dark-gray-3};
+  --minus-button-color : #{$gray-3};
+  --plus-button-color : #{$gray-dark-gray-3};
+
+  // 친구 색상
+  --friend-color : #{$dark-sub2};
+  --friend-border: #{$dark-sub};
+  --friend-font-color: #{$white};
+  --friend-modal-header-color: #{$dark-sub3};
+  --friend-modal-border-color: #{$dark-sub3};
+
+  // 로딩 색상
+  --loading-color: #{$dark-sub3};
+  --loading-color2: #{$dark-sub2};
+
+  // 문의 색상
+  --inquiry-file-up-button-color : #{$gray};
+  --inquiry-file-up-background : #{$sub-bg};
+  --inquiry-file-up-color: #{$dark-text-sub};
+  --inquiry-badge-color : #{#07D472};
+  --inquiry-image-background : #{$sub-bg};
+
+  // 보너스 색상
+  --bonus-header-bg : #{$bonus-bg};
+  --bonus-border : #{$gray-dark-gray-3};
+  --bonus-color : #{$dark-text-sub};
+
+
+  // 인풋 보더 색상
+  div {
+    // 기본적인 보더 색상
+    &.primary {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 포커스 보더 색상
+    &.focus {
+      &:focus-within {
+        border: 1px solid transparent;
+        background-image: linear-gradient(#16181A,#16181A),
+        linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+        border-radius: 0.5rem;
+        background-origin:border-box; 
+        background-clip:padding-box, border-box;
+      }
+    }
+    // 개인 이벤트 보더 색상
+    &.event {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 팀 이벤트 보더 색상
+    &.event2 {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 캘린더 배경 색상
+    &.calendar {
+      background: linear-gradient(180deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 헤더 배경 색상
+    &.small-info {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 보더 색상
+    &.small-info-border {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.6rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 섹션 배경 색상
+    &.section {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 친구쪽 아래 보더 색상 
+    &.friend-border-bottom {
+      border-bottom: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    // 친구쪽 오른쪽 보더 색상
+    &.friend-border-right {
+      border-right: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+    // 보너스 보더
+    &.bonus-info-border {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.6rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 보너스 배경
+    &.bonus-info {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+  }
+
+  // 버튼 색상
+  button {
+    &.primary {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #FFF;
+        }
+      }
+    }
+
+    &.reversal {
+      background: var(--bg-color);
+      color: var(--gray);
+      border: 1px solid var(--gray);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: var(--main-color);
+        }
+      }
+    }
+
+    &.link {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #121212;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+
+      & > div {
+        color: #121212;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #121212;
+        }
+      }
+    }
+  }
+
+};
+
+.game {
+  background-color: #16181A;
+  --font-color: #{$white};
+  --font-color2: black;
+  --bg-color: #{#16181A};
+  --gray: #{$gray};
+  --dark-sub : #{$dark-sub};
+  --dark-sub2 : #{$dark-sub2};
+  --dark-sub3 : #{$dark-sub3};
+  --dark-sub4 : #{$dark-sub4};
+  --dark-gray-3 : #{$gray-dark-gray-3};
+  --game-gold : #{$game-gold};
+  --game-green: #{$game-green};
+  --main-color: #{$main-color};
+
+  // 라이트 그레이 다크 옅은 그레이
+  --dark-text-sub : #{$dark-text-sub};
+  // 라이트 블랙 다크 옅은 그레이
+  --dark-text-sub2 : #{$dark-text-sub};
+
+
+  // 인풋 색상
+  --input-dark-sub: #{$dark-sub};
+  --input-dark-sub2: #{$dark-sub2};
+
+  // 헤더 색상
+  --header-dark-color: #{$dark-sub2};
+  --header-gray-color: #{$gray-dark-gray-3};
+  --header-global-color: #{$dark-sub2};
+  --header-color: #{$gray-5};
+
+  // 푸터 색상
+  --footer-color: #{$dark-sub};
+  --footer-gray-color: #{$gray-dark-gray-3};
+
+  // sub3 색상 
+  --header-information: #{$dark-sub3};
+
+  // 초대 아이콘 색상
+  --invite-icon: #{$dark-sub2};
+
+  // 게임 쪽 배경 색상
+  --game-background: #{$sub-bg};
+  --timer-background: #{$gray-3};
+  --timer-color: #{$white};
+  --event-color : #{$dark-sub};
+  --event-color2 : #{$dark-sub};
+
+  // 게임 캘린더
+  --calendar-tap-color : #{$dark-text-sub};
+  --calendar-color: #{$dark-sub2};
+  --calendar-color2: #{$dark-sub2};
+  --badge-color : #{$white};
+  --border-bottom-color : #{$dark-sub4};
+
+  // 세팅 색상
+  --content-color : #{$dark-text-sub};
+
+  // 모달 색상
+  --modal-header-color : #{$sub-bg};
+  --modal-header-color2 : #{$dark-sub3};
+  --modal-content-color : #{$dark-modal-bg};
+  --modal-border-color : #{$dark-modal-border};
+
+  // nft 아이템 색상
+  --nft-header : #{#16181A};
+  --nft-footer : #{#16181A};
+  --nft-svg : #{$dark-sub2};
+  --nft-font-color : #{$dark-sub};
+  --nft-font-color2 : #{$white};
+  --nft-prohibit : #{$gray};
+  
+  // 영수증 색상
+  --receipt-date-color : #{$dark-text-sub};
+  --receipt-level-color : #{$dark-sub};
+
+  // 리워드 색상
+  --reward-bg : #{#0F0F0F};
+  --reward-bg2 : #{#16181A};
+  --none : #{$dark-text-sub};
+  --random-box-border : #{$gray-3};
+  --random-box-toggle-color : #{$dark-sub3};
+  --random-box-toggle-color2 : #{$dark-sub2};
+  --random-box-text-color : #{$dark-sub2};
+  --random-box-text-color2 : #{$gray-dark-gray-3};
+  --minus-button-color : #{$gray-3};
+  --plus-button-color : #{$gray-dark-gray-3};
+
+  // 친구 색상
+  --friend-color : #{$dark-sub2};
+  --friend-border: #{$dark-sub};
+  --friend-font-color: #{$white};
+  --friend-modal-header-color: #{$dark-sub3};
+  --friend-modal-border-color: #{$dark-sub3};
+
+  // 로딩 색상
+  --loading-color: #{$dark-sub3};
+  --loading-color2: #{$dark-sub2};
+
+  // 문의 색상
+  --inquiry-file-up-button-color : #{$gray};
+  --inquiry-file-up-background : #{$sub-bg};
+  --inquiry-file-up-color: #{$dark-text-sub};
+  --inquiry-badge-color : #{#07D472};
+  --inquiry-image-background : #{$sub-bg};
+
+
+  // 인풋 보더 색상
+  div {
+    // 기본적인 보더 색상
+    &.primary {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 포커스 보더 색상
+    &.focus {
+      &:focus-within {
+        border: 1px solid transparent;
+        background-image: linear-gradient(#16181A,#16181A),
+        linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+        border-radius: 0.5rem;
+        background-origin:border-box; 
+        background-clip:padding-box, border-box;
+      }
+    }
+    // 개인 이벤트 보더 색상
+    &.event {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 팀 이벤트 보더 색상
+    &.event2 {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 캘린더 배경 색상
+    &.calendar {
+      background: linear-gradient(180deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 헤더 배경 색상
+    &.small-info {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 보더 색상
+    &.small-info-border {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.6rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 섹션 배경 색상
+    &.section {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 친구쪽 아래 보더 색상 
+    &.friend-border-bottom {
+      border-bottom: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    // 친구쪽 오른쪽 보더 색상
+    &.friend-border-right {
+      border-right: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+  }
+
+  // 버튼 색상
+  button {
+    &.primary {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #FFF;
+        }
+      }
+    }
+
+    &.reversal {
+      background: var(--bg-color);
+      color: var(--gray);
+      border: 1px solid var(--gray);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: var(--main-color);
+        }
+      }
+    }
+
+    &.link {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #121212;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+
+      & > div {
+        color: #121212;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #121212;
+        }
+      }
+    }
+  }
+
+}
+
+// 조직도
+.chart {
+  background-color: #F0F9FF;
+  color: black;
+  --font-color: black;
+  --bg-color: #{#16181A};
+  --gray: #{$gray};
+  --dark-sub : #{$dark-sub};
+  --dark-sub2 : #{$dark-sub2};
+  --dark-sub3 : #{$dark-sub3};
+  --dark-sub4 : #{$dark-sub4};
+  --dark-gray-3 : #{$gray-dark-gray-3};
+
+  // 라이트 그레이 다크 옅은 그레이
+  --dark-text-sub : #{$dark-text-sub};
+  // 라이트 블랙 다크 옅은 그레이
+  --dark-text-sub2 : #{$dark-text-sub};
+
+
+  // 인풋 색상
+  --input-dark-sub: #{$dark-sub};
+  --input-dark-sub2: #{$dark-sub2};
+
+  // 헤더 색상
+  --header-dark-color: #{$dark-sub2};
+  --header-gray-color: #{$gray-dark-gray-3};
+  --header-global-color: #{$dark-sub2};
+
+  // 푸터 색상
+  --footer-color: #{$dark-sub};
+  --footer-gray-color: #{$gray-dark-gray-3};
+
+  // sub3 색상 
+  --header-information: #{$dark-sub3};
+
+  // 초대 아이콘 색상
+  --invite-icon: #{$dark-sub2};
+
+  // 게임 쪽 배경 색상
+  --game-background: #{$sub-bg};
+  --timer-background: #{$gray-3};
+  --timer-color: #{$white};
+  --event-color : #{$dark-sub};
+  --event-color2 : #{$dark-sub};
+
+  // 게임 캘린더
+  --calendar-tap-color : #{$dark-text-sub};
+  --calendar-color: #{$dark-sub2};
+  --calendar-color2: #{$dark-sub2};
+  --badge-color : #{$white};
+  --border-bottom-color : #{$dark-sub4};
+
+  // 세팅 색상
+  --content-color : #{$dark-text-sub};
+
+  // 모달 색상
+  --modal-header-color : #{$sub-bg};
+  --modal-header-color2 : #{$dark-sub3};
+  --modal-content-color : #{$dark-modal-bg};
+  --modal-border-color : #{$dark-modal-border};
+
+  // nft 아이템 색상
+  --nft-header : #{#16181A};
+  --nft-footer : #{#16181A};
+  --nft-svg : #{$dark-sub2};
+  --nft-font-color : #{$dark-sub};
+  --nft-font-color2 : #{$white};
+  --nft-prohibit : #{$gray};
+  --randomBox-color : #FCFCFC;
+  
+  // 영수증 색상
+  --receipt-date-color : #{$dark-text-sub};
+  --receipt-level-color : #{$dark-sub};
+
+  // 리워드 색상
+  --reward-bg : #{#0F0F0F};
+  --reward-bg2 : #{#16181A};
+  --none : #{$dark-text-sub};
+  --random-box-border : #{$gray-3};
+  --random-box-toggle-color : #{$dark-sub3};
+  --random-box-toggle-color2 : #{$dark-sub2};
+  --random-box-text-color : #{$dark-sub2};
+  --random-box-text-color2 : #{$gray-dark-gray-3};
+  --minus-button-color : #{$gray-3};
+  --plus-button-color : #{$gray-dark-gray-3};
+
+  // 친구 색상
+  --friend-color : #{$dark-sub2};
+  --friend-border: #{$dark-sub};
+  --friend-font-color: #{$white};
+  --friend-modal-header-color: #{$dark-sub3};
+  --friend-modal-border-color: #{$dark-sub3};
+
+  // 로딩 색상
+  --loading-color: #{$dark-sub3};
+  --loading-color2: #{$dark-sub2};
+
+  // 문의 색상
+  --inquiry-file-up-button-color : #{$gray};
+  --inquiry-file-up-background : #{$sub-bg};
+  --inquiry-file-up-color: #{$dark-text-sub};
+  --inquiry-badge-color : #{#07D472};
+  --inquiry-image-background : #{$sub-bg};
+
+  // 보너스 색상
+  --bonus-header-bg : #{$bonus-bg};
+  --bonus-border : #{$gray-dark-gray-3};
+  --bonus-color : #{$dark-text-sub};
+
+
+  // 인풋 보더 색상
+  div {
+    // 기본적인 보더 색상
+    &.primary {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#fff,#fff),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 포커스 보더 색상
+    &.focus {
+      &:focus-within {
+        border: 1px solid transparent;
+        background-image: linear-gradient(#16181A,#16181A),
+        linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+        border-radius: 0.5rem;
+        background-origin:border-box; 
+        background-clip:padding-box, border-box;
+      }
+    }
+    // 개인 이벤트 보더 색상
+    &.event {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 팀 이벤트 보더 색상
+    &.event2 {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.5rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 캘린더 배경 색상
+    &.calendar {
+      background: linear-gradient(180deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 헤더 배경 색상
+    &.small-info {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 작은 정보 보더 색상
+    &.small-info-border {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.6rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 섹션 배경 색상
+    &.section {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+    // 친구쪽 아래 보더 색상 
+    &.friend-border-bottom {
+      border-bottom: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+    // 친구쪽 오른쪽 보더 색상
+    &.friend-border-right {
+      border-right: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+    }
+    // 보너스 보더
+    &.bonus-info-border {
+      border: 1px solid transparent;
+      background-image: linear-gradient(#16181A,#16181A),
+      linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      border-radius: 0.6rem;
+      background-origin:border-box; 
+      background-clip:padding-box, border-box;
+    }
+    // 보너스 배경
+    &.bonus-info {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+    }
+  }
+
+  // 버튼 색상
+  button {
+    &.primary {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #FFF;
+        }
+      }
+    }
+
+    &.reversal {
+      background: var(--bg-color);
+      color: var(--gray);
+      border: 1px solid var(--gray);
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: var(--main-color);
+        }
+      }
+    }
+
+    &.link {
+      background: linear-gradient(90deg, #12B8FF 0%, #FF007A 100%, #FF007A 100.01%);
+      color: #121212;
+      text-align: center;
+      font-family: Montserrat !important;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: none;
+      box-shadow:
+      -5px 0 10px rgba(18, 184, 255, 0.5),
+      5px 0 10px rgba(255, 0, 122, 0.5);
+
+
+      & > div {
+        color: #121212;
+      }
+
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        path {
+          fill: #121212;
+        }
+      }
+    }
+  }
+
+};

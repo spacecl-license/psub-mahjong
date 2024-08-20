@@ -1,0 +1,16 @@
+{
+  "自己" : "ME",
+  "兄弟" : "Child",
+  "销售额" : "Sales",
+  "收益" : "Income",
+  "返回Gaming Hub" : "Return to Gaming Hub",
+  "更改语言" : "Language",
+  "职级结构" : "HIERARCHY",
+  "奖励结构" : "REWARD",
+  "下位销售" : "Subordinate Sales",
+  "大线除外，小线合计" : "Total Small Line Excluding Large Line",
+  "HT职级达成基准" : "HT Job Title Performance Criteria",
+  "HT 1万美元以下 HT1 达成1万美元 HT2 达成3万美元 HT3 达成9万美元 HT4 达成30万美元 HT5 达成100万美元" : "HT Less than $10K\nHT1 Reached $10K\nHT2 Reached $30K\nHT3 Reached $90K\nHT4 Reached $300,000\nHT5 Reached $1M",
+  "HT 各等级 %" : "HT Tier %",
+  "HT1 销售额1万USD，销售额的5% HT2 销售额 3万 USD. 销售额的8% HT3 销售额9万USD，销售额的12% HT4 销售额30万USD，销售额的16% HT5 销售额100万USD，销售额的20% 直、下位销售额的5% (达成HT1时可获取) 下位收益的10% (职级以上时可获取) 下级超过职位时10%的补偿断绝" : "HT1 $10,000 in sales. 5% of sales\nHT2 $30,000 USD in sales. 8% of sales\nHT3 $90,000 USD in sales. 12% of sales\nHT4 $300,000 USD in sales. 16% of sales\nHT5 $1 million in sales 20% of sales\n\n5% of direct and subordinate sales\n(earned upon reaching HT1)\n10% of subordinate sales\n(Earned when you are at or above your rank)\n10% reward cut off\nwhen subordinate surpasses your level"
+}
